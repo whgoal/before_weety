@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+
+    <style>
+        *{ padding: 0; margin: 0; }
+        
+        .fixed01{
+            /* width: 100%; height: 300px; */
+            height: 1440px;
+            width: 100%;
+            top: 12759.6220703125px;
+            position: absolute;
+            
+            /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+            background-image: url("img/mockup_img.png");
+            background-repeat: no-repeat; /* 배경이미지X */
+            background-size: cover; /* 요소를 비율에 맞게 커버 */
+            background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+            background-attachment: fixed; /* 스크롤바 움직일때 이미지가 따라다님 */
+        }
+        </style>
+
+    <title>Weety</title>
+</head>
+
+
+<body>
+    <header>
+        <section id="top">
+            <a id="logo" href="index.html"><img src="img/logo.png" alt="로고"></a>
+            <nav id="main_menu">
+                    <ul>
+                        <li class="on" class="a"><a href="#">Hello we are</a></li>
+                        <li><a href="#">service is</a></li>
+                        <li><a href="#">design work</a></li>
+                        <li><a href="#">for Weety</a></li>
+                    </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!-- 스크롤 영역 -->
+    <div class="content">
+        <div class="cnt01"></div>
+        <div class="cnt02"></div>
+        <div class="cnt03"></div>
+        <div class="cnt04"></div>
+    </div>
+    <!-- 스크롤 영역 -->
+    
+    <div class="wrap">
+    <section class="main">
+        <img class="main_bg" src="img/main_bg.png" alt="메인 배경화면">
+        <img class="main_mk" src="img/main_mockup.gif" alt="메인 목업">
+        <img class="main_01" src="img/main_logo.png" alt="서비스 로고">
+        <p>홈베이킹에 진심인 당신을 위한 <br>디저트 키트 판매 및 레시피 펀딩 서비스</p>
+        <img class="main_btn01" src="img/google_button.png" alt="구글 다운로드"> <img class="main_btn02" src="img/apple_button.png" alt="앱스토어 다운로드">
+        <article class="fix_btn">
+            <a href="https://www.figma.com/proto/MFBnWndaUwoRKflvJhsGqL/APP_Weety_EASY%ED%95%B4?page-id=0%3A1&node-id=11%3A44&viewport=256%2C641%2C0.34&scaling=scale-down&starting-point-node-id=11%3A44" target="_blank">
+            <img class="sub" src="img/sub_button.png" alt="서브 버튼"></a>
+            <img onclick="topFunction()" id="myBtn" src="img/Topbutton.png" alt="탑 버튼">
+        </article>
+    </section>
+<section class="Helloweare">
+    <article class="Helloweare_01">
+
+	<div id="view">
+        <ul class="slide">
+          <li><iframe src="https://www.youtube.com/embed/2plKpqM5sAA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+          <li><img src="img/Project_bg_01.png" alt="img2" alt="프로젝트 배경"></li>
+          <li><img src="img/Project_bg_02.png" alt="img3" alt="프로젝트 배경"></li>
+          <li class="small"><img src="img/project_bg_03.gif" alt="img4" alt="프로젝트 배경"></li>
+        </ul>
+
+        <button class="prev"><img src="img/left_button.gif" alt="왼쪽 화살표"></button>
+        <button class="next"><img src="img/right_button.gif" alt="오른쪽 화살표"></button>        
+      </div>
+
+    <div id="dot">
+      <ul>
+        <li class="on"><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+     
+      </ul>
+    </div>
+    </article>
+</section>
+
+
+
+<section class="serviceis">
+    <article class="app_first">
+        <img class="dot0" src="img/title_shape.png" alt="디자인 점">
+        <p id="title">Weety가 처음이라면?</p>
+        <p id="contents">사전설문으로 베이킹 레벨을 측정하세요. <br>베이킹 레벨은 당신이 좋아하는 디저트 키트 추천에 활용됩니다.</p>
+        <img class="app_first_gif" src="img/motion01.gif" alt="서비스 구동">
+    </article>
+    <article class="app_kit">
+        <img class="app_kit_gif" src="img/app_01.gif" alt="서비스 구동">
+        <img class="dot1" src="img/title_shape.png" alt="디자인 점">
+        <p id="title1">오직 위티에서만 구매가능<br>디저트 키트</p>
+        <p id="contents1">모든 재료들을 소분해서 보내드려요.<br>재료 처분 걱정말고 베이킹에만 집중할 수 있습니다.
+    </article>
+    <article class="app_money">
+        <img class="dot2" src="img/title_shape.png" alt="디자인 점">
+        <p id="title2">나만의 레시피 홍보와<br>더불어 수익창출 효과</p>
+        <p id="contents2">커뮤니티에 레시피를 올려보세요.<br>베스트 레시피에 선정된 위더는 위티와 함께<br>위드를 진행합니다.</p>
+        <img class="app_money_gif" src="img/app_02.gif" alt="메인 배경화면">
+    </article>
+    <article class="app_borrow">
+        <img class="app_03" src="img/app_03.gif" alt="서비스 구동">
+        <img class="worry" src="img/worry_stop.png" alt="서비스 제목">
+    </article>
+
+    <article class="app_review">
+        <p id="re_title">Weety! 사용해보니 이게 좋았어요</p>
+        <p id="re_contents">Weety 사용자들의 후기입니다.</p>
+        <img class="re1" src="img/presona1.png" alt="페르소나">
+        <img class="re2" src="img/presona2.png" alt="페르소나">
+        <img class="re3" src="img/presona3.png" alt="페르소나">
+    </article>
+
+</section>
+
+<div class="designwork">
+    <article class="bi">
+        <div class="hideme"><p id="title">BI</p></div>
+        <p id="contents">Weety의 W를 머핀의 빵으로 형상화시켜 디자인 하였습니다.</p>
+        <img class="bi_motion" src="img/icon_motion.gif" alt="BI">
+        <img class="bi_01" src="img/BI_length.png" alt="BI">
+        <img class="bi_02" src="img/BI_horizontal.png" alt="BI">
+    </article>
+    <article class="brand_color">
+        <img class="brand" src="img/color.png" alt="톤앤매너">
+        <p id="title">Brand color</p>
+        <p id="contents">팬톤컬러 핑크아이싱을 브랜드 컬러로 선정해 위티만의 밝고 명량한 느낌을 주고자 하였습니다.</p>
+    </article>
+    <article class="character">
+        <img class="main01" src="img/bbang_main01.png" alt="캐릭터">
+        <img class="main02" src="img/bbang_main02.png" alt="캐릭터">
+        <img class="sub01" src="img/bbang_sub01.png" alt="캐릭터">
+        <img class="sub02" src="img/bbang_sub02.png" alt="캐릭터">
+        <img class="sub03" src="img/bbang_sub03.png" alt="캐릭터">
+        <img class="sub04" src="img/bbang_sub04.png" alt="캐릭터">
+        <p id="title">Character</p>
+        <p id="contents">디저트로 발전하는 반죽 형태의 캐릭터를<br>이미지 배너, 앱 일부 화면 등에 사용을 하였습니다.</p>
+    </article>
+    <img class="bg_shape"src="img/bg_shape.png">
+    <article class="icon">
+        <img class="icon" src="img/icon_img.png">
+        <p id="title">ICON</p>
+        <p id="contents">모서리를 둥글게 아이콘을 제작하여 위티 서비스와 잘 어울릴 수 있도록 디자인하였습니다.</p>
+    </article>
+</div>
+</section>
+</div>
+
+        <div class="fixed01"></div>
+        <footer>
+            <section class="footer_white">
+                <div class="wrap">
+                <img id="footer_txt" src="img/footer_team.png">
+                <img id="footer_we" src="img/footer_we.png">
+            </div>
+            </section>
+            <section class="footer_pink">
+                <p id="footer_text1">2022 계원예술대학교 디지털미디어디자인과</p>
+                <p id="footer_text2">COPYRIGHT (C) Weety ALL RIGHTS RESERVED</p>
+            </section>
+        </footer>
+
+
+   
+</body>
+</html>
+
+<script type="text/javascript" src="js/common.js"></script>

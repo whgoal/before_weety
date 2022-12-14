@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+body {
+    /* height: 15130px;  내가 임의로 막아놓음!!! 1015에*/
+    height: 100%;
+    font-family: 'pretendard';
+    font-size: 18px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+.clear {
+    clear: both;
+}
+.wrap {
+    /* margin: 0 auto; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 헤더 */
+
+header {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 99999;
+}
+header #top {
+    /* width: 1200px; */
+    margin: 0 auto;
+    width: 100%;
+}
+header #logo {
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
+
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 메인 메뉴 */
+
+header #main_menu {
+    margin-top: 25px;
+    margin-right: 100px;
+    float: right;
+}
+header #main_menu ul {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+    display: inline;
+}
+header #main_menu li {
+    display: inline;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~main */
+.main {
+    /* display: flex; */
+  justify-content: center;
+}
+
+.main .main_01 {
+    margin: 372px 1462px 0 193px;
+}
+.main p {
+    margin: 13px 0 0 203px;
+    color: #ffffff;
+    font-size: 28px;
+}
+.main .main_btn01 {
+    margin: 36px 0 0 203px;
+}
+.main .main_btn02 {
+    margin: 36px 0 0 23px;
+}
+.main .main_bg {
+    width: 100%;
+    top: 90px;
+    /* background-size: cover; */
+    /* background-position: center; */
+    z-index: -99999;
+    position: absolute;
+}
+.main .main_mk {
+    height: 842px;
+    width: 886px;
+    left: 901px;
+    top: 188px;
+    position: absolute;    
+}
+.fix_btn .sub{
+    left: 1754.6011962890625px;
+    top: 752.05615234375px;
+    position: fixed;
+    z-index: 999999;
+}
+.fix_btn .top {
+    left: 1754.6025390625px;
+    top: 838.22314453125px;
+    position: fixed;
+    z-index: 999999;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Helloweare */
+iframe {
+    height: 720px;
+    width: 1280px;
+    margin-left: 319.5712890625px;
+    border-radius: 0px;
+    padding-top: 100px;
+
+}
+.Helloweare_01 #btn {
+    position: absolute;
+    left: 1723px;
+    top: 1708.8935546875px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ service is */
+.dot0 {
+    position: absolute;
+    left: 207.74755859375px;
+    top: 2574.0234375px;
+}
+.app_first #title {
+    color: #3c3c33;
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+    left: 247px;
+    top: 2594.15px;
+    position: absolute;
+}
+.app_first #contents {
+    color: #3c3c33;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    left: 247px;
+    top: 2683.54px;
+    position: absolute;
+}
+.app_first_gif {
+    height: 703.603515625px;
+    width: 1526px;
+    left: 197px;
+    top: 2843.0791015625px;
+    border-radius: 0px;    
+    position: absolute;
+}
+.app_kit .app_kit_gif {
+    height: 1076px;
+    width: 1033px;
+    left: 247px;
+    top: 3790px;
+    border-radius: 0px;
+    
+    position: absolute;    
+}
+.dot1 {
+    left: 1045px;
+    top: 3963.76px;    
+    position: absolute;
+}
+.app_kit #title1{
+    position: absolute;
+    left: 1083px;
+    top: 3983.75px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #3C3C3C;
+}
+.app_kit #contents1{
+    position: absolute;
+    left: 1083px;
+    top: 4139.98px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #3C3C3C;
+}
+
+.dot2 {
+    left: 306.4px;
+    top: 5172.9px;    
+    position: absolute;
+}
+.app_money #title2 {
+    color: #3c3c33;
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+    left: 344.98px;
+    top: 5192.64px;
+    position: absolute;
+}
+.app_money #contents2 {
+    color: #3c3c33;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    left: 344.98px;
+    top: 5348.87px;
+    position: absolute;
+}
+.app_money_gif {
+    left: 692px;
+    top: 5015px;
+    position: absolute;
+    z-index: -1;
+}
+.app_borrow .app_03 {
+    height: 1050px;
+    width: 1476px;
+    left: 198px;
+    top: 6125px;    
+    position: absolute;
+}
+.app_borrow .worry {
+    height: 198px;
+    width: 592.5859375px;
+    left: 1054px;
+    top: 6373px;
+    position: absolute;
+}
+.app_review #re_title{
+    position: absolute;
+    left: 258.62px;
+    top: 7532px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #3C3C3C;
+}
+.app_review #re_contents {
+    position: absolute;
+    left: 262.84px;
+    top: 7623.9px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #3C3C3C;
+}
+.re1 {
+    left: 277.91986083984375px;
+    top: 7755px;
+    position: absolute;
+}
+.re2 {
+    position: absolute;
+    left: 797.51px;
+    top: 7755px;
+    position: absolute;
+}
+.re3 {
+    left: 1317.08984375px;
+    top: 7755px;
+    position: absolute;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ deeginwork */
+.bi #title {
+    position: absolute;
+    left: 250.32px;
+    top: 8865px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #3C3C3C;
+}
+.bi #contents {
+    position: absolute;
+    left: 247px;
+    top: 8962.94px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    color: #3C3C3C;
+}
+.bi_motion{
+    left: 1231px;
+    top: 9049.2px;
+    position: absolute;
+}
+.bi_01{
+    height: 216px;
+    width: 296px;
+    left: 248px;
+    top: 9186.55px;
+    position: absolute;    
+}
+.bi_02{
+    left: 691px;
+    top: 9230.38px;
+    position: absolute;
+}
+.brand {
+    left: 101px;
+    top: 10048px;    
+    position: absolute;
+}
+.brand_color #title{
+    position: absolute;
+    left: 247px;
+    top: 9811px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+.brand_color #contents{
+    position: absolute;
+    left: 247px;
+    top: 9908.3px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+}
+.character .main01{
+    height: 293px;
+    width: 386px;
+    left: 197px;
+    top: 11091.16796875px;
+    position: absolute;
+}
+.character .main02{
+    height: 294px;
+    width: 381px;
+    left: 624px;
+    top: 11091.16796875px; 
+    position: absolute;
+}
+.character .sub01{
+    height: 227px;
+    width: 257px;
+    left: 1135.334228515625px;
+    top: 10775px;  
+    position: absolute;
+}
+.character .sub02{
+    height: 167px;
+    width: 256px;
+    left: 1467.9835205078125px;
+    top: 10821.16796875px;    
+    position: absolute;
+}
+.character .sub03{
+    height: 236px;
+    width: 257px;
+    left: 1133px;
+    top: 11151.16796875px;   
+    position: absolute;
+}
+.character .sub04{
+    height: 204px;
+    width: 265px;
+    left: 1467.7152099609375px;
+    top: 11186.7548828125px;
+    position: absolute;
+}
+.character #title {
+    position: absolute;
+    left: 248.1px;
+    top: 10782.17px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #3C3C3C;
+}
+.character #contents{
+    position: absolute;
+    left: 247px;
+    top: 10867.94px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    color: #3C3C3C;
+}
+.bg_shape {
+    left: 0px;
+    top: 11391px;
+    position: absolute;
+}  
+.icon img{
+    position: absolute;   
+    left: 248.2333984375px;
+    top: 11804px;
+}
+.icon #title {
+    position: absolute;
+    left: 247px;
+    top: 12336px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #3C3C3C;
+}
+.icon #contents {
+    position: absolute;
+    left: 247.55078125px;
+    top: 12430.8359375px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    color: #3C3C3C;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ forweety */
+
+/* .app_all {
+    top: 12759.6220703125px;  
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~푸터 */
+
+footer .footer_white {
+    position: absolute;
+    width: 100%;
+    height: 786px;
+    top: 14200px;
+    background-color: #ffffff;
+}
+footer .footer_pink {
+    position: absolute;
+    width: 100%;
+    height: 143.24px;
+    top: 14986.47px;
+    background-color: #EC9FA5;
+}
+.footer_white #footer_txt {
+    left: -400px;
+    top: 80px;
+    position: absolute;
+
+}
+.footer_white #footer_we {
+    margin-top: 181px; 
+}
+.footer_pink #footer_text1{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+.footer_pink #footer_text2{
+    margin-top: 70px;
+    margin-right: 200px;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ js */
+#myBtn {
+    position: fixed;
+    cursor: pointer;
+    left: 1754.6025390625px;
+    top: 838.22314453125px;
+    z-index: 99999;
+    }
+
+
+	#view { position:absolute;overflow: hidden; width:1920px; margin:30px auto; top:1229px; position: absolute;}
+  .slide { list-style:none; width:9600px;   }
+  .slide li { width:1920px; float:left; }
+  .slide li img {width:100%;}
+    button { position:absolute; top:50%; transform:translateY(-50%);cursor:pointer; border-style: none; background-color: rgba(255, 255, 255, 0); }
+    button.prev { left:20px; }
+    button.next { right:20px; }
+    #dot { text-align: center; left: 850px; top: 2187px; position: absolute;}
+  #dot > ul > li {display:inline-block; margin:10px; width: 20px; height: 20px; border-radius: 20px;  background:#DEDEDE; cursor:pointer;}
+  #dot > ul li a { display: block;}
+  #dot ul li.on { background:#707070; width: 20px; height: 20px; border-radius: 20px; }
+
+
+  ul, ol{list-style:none}
+  .content div{position:absolute}
+  .content .cnt01{
+      top: 1159px;
+      height: 2317.68px;
+  }
+  .content .cnt02{
+      height: 4871px;
+      top: 3790px;
+  }
+  .content .cnt03{
+      height: 3663.84px;
+      top: 8795px;
+  }
+  .content .cnt04{
+      height: 2370.09px;
+      top: 12759.62px;
+  }
+.header {
+    position: fixed;
+}
+
+
+
+
+
